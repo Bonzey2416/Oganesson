@@ -9,8 +9,9 @@ html, body {
   background-repeat: repeat;
   background-size: contain;
   color: black;
-  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
-  font-size: 18px; 
+  font-family: "Minion Variable Concept", times, "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px; 
+  font-variation-settings: 'wght' 400, 'opsz' 16;
 }
 
 body {
@@ -24,12 +25,12 @@ body {
 }
 
 .title {
-  font-size: px;
-  font-weight: bold;
+  font-size: 35px;
+  font-weight: 400;
   margin-right: 20px;
   display: inline-block;
-  font-family: 'Grenze', serif;
   color: #2a1a5e;
+  font-variation-settings: 'wght' 400, 'opsz' 36;
 }
 
 @-webkit-keyframes move-up {
@@ -70,9 +71,10 @@ body {
   background: black;
   padding: 15px 25px;
   font-size: 35px;
+  font-variation-settings: 'wght' 600, 'opsz' 35;
   height: 25px;
   line-height: 47px;
-  font-weight: bold;
+  font-weight: 400;
   border-radius: 10px;
   color: white;
   margin-top: 8px;
@@ -92,6 +94,7 @@ body {
     line-height: 13px;
     text-align: center;
     color: #eee4da;
+    font-variation-settings: 'wght' 500, 'opsz' 13;
   }
 
   .score-container .score-addition, .best-container .score-addition {
@@ -100,7 +103,7 @@ body {
     color: red;
     font-size: 25px;
     line-height: 25px;
-    font-weight: bold;
+    font-weight: 400;
     color: rgba(119, 110, 101, 0.9);
     z-index: 100;
     -webkit-animation: move-up 600ms ease-in;
@@ -109,6 +112,7 @@ body {
     -webkit-animation-fill-mode: both;
     -moz-animation-fill-mode: both;
     animation-fill-mode: both;
+    font-variation-settings: 'wght' 400, 'opsz' 25;
   }
 
 .score-container:after {
@@ -156,10 +160,10 @@ hr {
 	box-shadow: 0 0 2px 0.5px #000000;
 }
 .important{
-	  font-family: 'Grenze', serif;
-	  font-size:1.3em;
-
+	  font-size:20px;
+font-variation-settings: 'wght' 600, 'opsz' 2016;
 }
+strong, b {font-weight: 400; font-variation-settings: 'wght' 650;}
 .right-container{
 	width: 200px;
   display: inline-block;
@@ -249,9 +253,10 @@ hr {
 
 .game-container .game-message p {
   font-size: 60px;
-  font-weight: bold;
+  font-weight: 400;
   height: 60px;
   line-height: 60px;
+font-variation-settings: 'wght' 400, 'opsz' 60;
   margin-top: 222px;
 }
 
@@ -602,9 +607,10 @@ hr {
   border-radius: 3px;
   background: #eee4da;
   text-align: center;
-  font-weight: bold;
+  font-weight: 400;
   z-index: 10;
   font-size: 55px;
+  font-variation-settings: 'wght' 559, 'opsz' 55;
 }
 
  /* Color Scheme 0: Classic */
@@ -936,7 +942,7 @@ hr {
  .tile.tile-super .tile-inner {
   color: #9e87ae;
   background: #3d3d3d;
-  font-size: 30px; }
+  font-size: 30px;}
   @media screen and (max-width: 520px) {
    .tile.tile-super .tile-inner {
     font-size: 10px; } }
